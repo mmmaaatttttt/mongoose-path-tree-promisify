@@ -190,7 +190,7 @@ describe('tree tests', function () {
   });
 
 
-  describe('removing document', function () {
+  xdescribe('removing document', function () {
 
     it('should remove leaf nodes', function (done) {
       User.findOne({ name: 'Emily' })
